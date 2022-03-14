@@ -6,6 +6,7 @@ namespace _3_14
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("九九乘法表練習");
             int num = 0;
            for(int i=1;i<=9;i++)
             {
@@ -22,6 +23,7 @@ namespace _3_14
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine("按下任意按鈕結束程式");
             Console.Read();
         }
     }
